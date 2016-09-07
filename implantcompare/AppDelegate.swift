@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import ChameleonFramework
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
@@ -15,7 +17,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Colors
+        self.window!.tintColor = FlatSkyBlue()
+        //UINavigationBar.appearance().barTintColor = FlatSkyBlue()
+        //UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+        //UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.whiteColor()]
+        UINavigationBar.appearance().tintColor = FlatSkyBlueDark()
+        UINavigationBar.appearance().titleTextAttributes = [
+            NSFontAttributeName: UIFont.systemFontOfSize(14)
+        ]
+        
+        // One Signal
+        _ = OneSignal(launchOptions: launchOptions, appId: "a4acb3bb-f4db-4e8a-b631-cf1f725e8269", handleNotification: nil, autoRegister: false)
+        OneSignal.defaultClient().enableInAppAlertNotification(true)
+        
+        // Firebase
+        FIRApp.configure()
+        
         let splitViewController = self.window!.rootViewController as! UISplitViewController
         let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
@@ -39,6 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        NSNotificationCenter.defaultCenter().postNotificationName("ReloadData", object: nil)
     }
 
     func applicationWillTerminate(application: UIApplication) {
@@ -49,7 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
     func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController:UIViewController, ontoPrimaryViewController primaryViewController:UIViewController) -> Bool {
         guard let secondaryAsNavController = secondaryViewController as? UINavigationController else { return false }
-        guard let topAsDetailController = secondaryAsNavController.topViewController as? DetailViewController else { return false }
+        guard let topAsDetailController = secondaryAsNavController.topViewController as? EventViewController else { return false }
         if topAsDetailController.detailItem == nil {
             // Return true to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
             return true

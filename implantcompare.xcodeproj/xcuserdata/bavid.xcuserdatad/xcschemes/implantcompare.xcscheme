@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6119F29C1D2092CA00F86D5B"
-               BuildableName = "implantcompare.app"
+               BuildableName = "Implant Compare.app"
                BlueprintName = "implantcompare"
                ReferencedContainer = "container:implantcompare.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6119F29C1D2092CA00F86D5B"
-            BuildableName = "implantcompare.app"
+            BuildableName = "Implant Compare.app"
             BlueprintName = "implantcompare"
             ReferencedContainer = "container:implantcompare.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6119F29C1D2092CA00F86D5B"
-            BuildableName = "implantcompare.app"
+            BuildableName = "Implant Compare.app"
             BlueprintName = "implantcompare"
             ReferencedContainer = "container:implantcompare.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6119F29C1D2092CA00F86D5B"
-            BuildableName = "implantcompare.app"
+            BuildableName = "Implant Compare.app"
             BlueprintName = "implantcompare"
             ReferencedContainer = "container:implantcompare.xcodeproj">
          </BuildableReference>
