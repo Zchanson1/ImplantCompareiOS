@@ -1,0 +1,4 @@
+/.idea
+/platforms/ios/build
+npm-debug.log
+.DS_Store
