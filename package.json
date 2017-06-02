@@ -1,7 +1,7 @@
 {
     "name": "com.implantcompare.implantcompare",
     "displayName": "IC",
-    "version": "1.0.0",
+    "version": "2.6.3",
     "description": "A sample Apache Cordova application that responds to the deviceready event.",
     "main": "index.js",
     "scripts": {
@@ -16,12 +16,15 @@
         "cordova-plugin-buildinfo": "^1.1.0",
         "cordova-plugin-compat": "^1.1.0",
         "cordova-plugin-customurlscheme": "^4.2.0",
+        "cordova-plugin-facebook4": "^1.9.0",
         "cordova-plugin-firebase": "^0.1.21",
+        "cordova-plugin-googleplus": "^5.1.1",
         "cordova-plugin-inappbrowser": "^1.7.1",
         "cordova-plugin-splashscreen": "^4.0.3",
         "cordova-plugin-statusbar": "^2.2.3",
         "cordova-plugin-whitelist": "^1.3.2",
-        "cordova-universal-links-plugin": "^1.2.1"
+        "cordova-universal-links-plugin": "^1.2.1",
+        "plugin": "^0.3.3"
     },
     "cordova": {
         "plugins": {
@@ -35,6 +38,13 @@
             "cordova-plugin-inappbrowser": {},
             "cordova-plugin-customurlscheme": {
                 "URL_SCHEME": "com.implantcompare.implantcompare"
+            },
+            "cordova-plugin-facebook4": {
+                "APP_ID": "1834783516803213",
+                "APP_NAME": "IC"
+            },
+            "cordova-plugin-googleplus": {
+                "REVERSED_CLIENT_ID": "com.googleusercontent.apps.807764475515-lei0cla1lpmpmu6n7s43ad7m7pjm36ot"
             }
         },
         "platforms": [

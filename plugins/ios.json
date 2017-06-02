@@ -34,6 +34,15 @@
         "cordova-plugin-customurlscheme": {
             "URL_SCHEME": "com.implantcompare.implantcompare",
             "PACKAGE_NAME": "com.implantcompare.implantcompare"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "1834783516803213",
+            "APP_NAME": "IC",
+            "PACKAGE_NAME": "com.implantcompare.implantcompare"
+        },
+        "cordova-plugin-googleplus": {
+            "REVERSED_CLIENT_ID": "com.googleusercontent.apps.807764475515-lei0cla1lpmpmu6n7s43ad7m7pjm36ot",
+            "PACKAGE_NAME": "com.implantcompare.implantcompare"
         }
     },
     "dependent_plugins": {

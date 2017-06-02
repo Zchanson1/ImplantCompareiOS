@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.implantcompare.implantcompare" version="2.6.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.implantcompare.implantcompare" version="2.6.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>IC</name>
     <description>
         Implant Compare official app.
@@ -69,7 +69,14 @@
     <plugin name="cordova-plugin-customurlscheme" spec="^4.2.0">
         <variable name="URL_SCHEME" value="com.implantcompare.implantcompare" />
     </plugin>
+    <plugin name="cordova-plugin-facebook4" spec="^1.9.0">
+        <variable name="APP_ID" value="1834783516803213" />
+        <variable name="APP_NAME" value="IC" />
+    </plugin>
     <plugin name="cordova-plugin-firebase" spec="^0.1.21" />
+    <plugin name="cordova-plugin-googleplus" spec="^5.1.1">
+        <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.807764475515-lei0cla1lpmpmu6n7s43ad7m7pjm36ot" />
+    </plugin>
     <plugin name="cordova-plugin-inappbrowser" spec="^1.7.1" />
     <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
     <plugin name="cordova-plugin-statusbar" spec="^2.2.3" />
