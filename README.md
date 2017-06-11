@@ -25,7 +25,7 @@ It also gives us the possibility to tag stable builds.
 ├───node_modules                        --> Cordova plugins installed by the CLI
 ├───platforms
 │   └───ios
-│		     ├───IC.xcodeproj  				--> XCode project
+│		├───IC.xcodeproj  				--> XCode project
 │       └───platform_www 				--> contain Cordova js files
 ├───plugins                             --> plugins folder
 │   └───cordova-plugin-whitelist
