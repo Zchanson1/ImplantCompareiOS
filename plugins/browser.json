@@ -1,0 +1,51 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "stag-implant-compare"
+    },
+    "cordova-plugin-googleplus": {
+      "WEB_APPLICATION_CLIENT_ID": "com.googleusercontent.apps.147670420286-eaopnnlsm4tnm7kb316eae46ns0uvoa4",
+      "PACKAGE_NAME": "stag-implant-compare"
+    },
+    "cordova-plugin-facebook4": {
+      "APP_ID": "326806861434139",
+      "APP_NAME": "ImplantCompare",
+      "FACEBOOK_ANDROID_SDK_VERSION": "4.38.1",
+      "PACKAGE_NAME": "stag-implant-compare"
+    },
+    "cordova-plugin-buildinfo": {
+      "PACKAGE_NAME": "stag-implant-compare"
+    },
+    "cordova-plugin-browsertab": {
+      "PACKAGE_NAME": "stag-implant-compare"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "stag-implant-compare"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "com.implantcompare.implantcompare",
+      "PACKAGE_NAME": "stag-implant-compare"
+    },
+    "cordova-universal-links-plugin": {
+      "PACKAGE_NAME": "stag-implant-compare"
+    },
+    "cordova-plugin-firebase": {
+      "PACKAGE_NAME": "com.implantcompare.implantcompare"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "stag-implant-compare"
+    }
+  }
+}

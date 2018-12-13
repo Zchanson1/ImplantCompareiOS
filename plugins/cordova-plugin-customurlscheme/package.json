@@ -10,23 +10,23 @@
         "spec": "latest",
         "type": "tag"
       },
-      "/Users/admin/Documents/implant-compare-ios/node_modules"
+      "/Users/serhiikoziy/Documents/repo/hello"
     ]
   ],
   "_from": "cordova-plugin-customurlscheme@latest",
-  "_id": "cordova-plugin-customurlscheme@4.2.0",
+  "_id": "cordova-plugin-customurlscheme@4.3.0",
   "_inCache": true,
   "_location": "/cordova-plugin-customurlscheme",
-  "_nodeVersion": "4.2.2",
+  "_nodeVersion": "6.10.3",
   "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/cordova-plugin-customurlscheme-4.2.0.tgz_1466026193911_0.2108908195514232"
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-customurlscheme-4.3.0.tgz_1496424665981_0.6795418069232255"
   },
   "_npmUser": {
     "name": "eddyverbruggen",
     "email": "eddyverbruggen@gmail.com"
   },
-  "_npmVersion": "2.14.7",
+  "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
     "raw": "cordova-plugin-customurlscheme",
@@ -38,14 +38,13 @@
     "type": "tag"
   },
   "_requiredBy": [
-    "#USER",
-    "/"
+    "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-customurlscheme/-/cordova-plugin-customurlscheme-4.2.0.tgz",
-  "_shasum": "b7a66ee5fc26ac6374883553760647163a37d07b",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-customurlscheme/-/cordova-plugin-customurlscheme-4.3.0.tgz",
+  "_shasum": "02f968778b4093990eb0407f3fa1b1458d705f94",
   "_shrinkwrap": null,
   "_spec": "cordova-plugin-customurlscheme",
-  "_where": "/Users/admin/Documents/implant-compare-ios/node_modules",
+  "_where": "/Users/serhiikoziy/Documents/repo/hello",
   "author": {
     "name": "Eddy Verbruggen",
     "email": "eddyverbruggen@gmail.com",
@@ -68,8 +67,8 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "b7a66ee5fc26ac6374883553760647163a37d07b",
-    "tarball": "https://registry.npmjs.org/cordova-plugin-customurlscheme/-/cordova-plugin-customurlscheme-4.2.0.tgz"
+    "shasum": "02f968778b4093990eb0407f3fa1b1458d705f94",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-customurlscheme/-/cordova-plugin-customurlscheme-4.3.0.tgz"
   },
   "engines": [
     {
@@ -77,7 +76,7 @@
       "version": ">=3.0.0"
     }
   ],
-  "gitHead": "6466f726c379139c4c59a3bf8ac10a8f9e4b303a",
+  "gitHead": "d220fb3769b8ddbb197b91f18b57ceb315a85f44",
   "homepage": "https://github.com/EddyVerbruggen/Custom-URL-scheme#readme",
   "keywords": [
     "Custom URL Scheme",
@@ -107,5 +106,5 @@
     "url": "git+https://github.com/EddyVerbruggen/Custom-URL-scheme.git"
   },
   "scripts": {},
-  "version": "4.2.0"
+  "version": "4.3.0"
 }

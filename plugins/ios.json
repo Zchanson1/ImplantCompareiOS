@@ -1,53 +1,48 @@
 {
-    "prepare_queue": {
-        "installed": [],
-        "uninstalled": []
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "com.implantcompare.implantcompare",
+      "PACKAGE_NAME": "com.implantcompare.implantcompare"
     },
-    "config_munge": {
-        "files": {}
+    "cordova-plugin-facebook4": {
+      "APP_ID": "326806861434139",
+      "APP_NAME": "ImplantCompare",
+      "FACEBOOK_ANDROID_SDK_VERSION": "4.38.1",
+      "PACKAGE_NAME": "com.implantcompare.implantcompare"
     },
-    "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.implantcompare.implantcompare"
-        },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.implantcompare.implantcompare"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.implantcompare.implantcompare"
-        },
-        "cordova-plugin-firebase": {
-            "PACKAGE_NAME": "com.implantcompare.implantcompare"
-        },
-        "cordova-plugin-buildinfo": {
-            "PACKAGE_NAME": "com.implantcompare.implantcompare"
-        },
-        "cordova-universal-links-plugin": {
-            "PACKAGE_NAME": "com.implantcompare.implantcompare"
-        },
-        "cordova-plugin-browsertab": {
-            "PACKAGE_NAME": "com.implantcompare.implantcompare"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.implantcompare.implantcompare"
-        },
-        "cordova-plugin-customurlscheme": {
-            "URL_SCHEME": "com.implantcompare.implantcompare",
-            "PACKAGE_NAME": "com.implantcompare.implantcompare"
-        },
-        "cordova-plugin-facebook4": {
-            "APP_ID": "1834783516803213",
-            "APP_NAME": "IC",
-            "PACKAGE_NAME": "com.implantcompare.implantcompare"
-        },
-        "cordova-plugin-googleplus": {
-            "REVERSED_CLIENT_ID": "com.googleusercontent.apps.807764475515-lei0cla1lpmpmu6n7s43ad7m7pjm36ot",
-            "PACKAGE_NAME": "com.implantcompare.implantcompare"
-        }
+    "cordova-plugin-firebase": {
+      "PACKAGE_NAME": "com.implantcompare.implantcompare"
     },
-    "dependent_plugins": {
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "com.implantcompare.implantcompare"
-        }
+    "cordova-plugin-buildinfo": {
+      "PACKAGE_NAME": "com.implantcompare.implantcompare"
+    },
+    "cordova-plugin-googleplus": {
+      "REVERSED_CLIENT_ID": "com.googleusercontent.apps.807764475515-lei0cla1lpmpmu6n7s43ad7m7pjm36ot",
+      "PACKAGE_NAME": "com.implantcompare.implantcompare"
+    },
+    "cordova-plugin-browsertab": {
+      "PACKAGE_NAME": "com.implantcompare.implantcompare"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.implantcompare.implantcompare"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.implantcompare.implantcompare"
+    },
+    "cordova-universal-links-plugin": {
+      "PACKAGE_NAME": "com.implantcompare.implantcompare"
     }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.implantcompare.implantcompare"
+    }
+  }
 }

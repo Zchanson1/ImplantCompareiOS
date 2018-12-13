@@ -10,7 +10,7 @@
         "spec": "latest",
         "type": "tag"
       },
-      "/Users/admin/Documents/implant-compare-ios/node_modules"
+      "/Users/serhiikoziy/Documents/repo/ImplantCompareiOS"
     ]
   ],
   "_from": "cordova-plugin-browsertab@latest",
@@ -38,14 +38,13 @@
     "type": "tag"
   },
   "_requiredBy": [
-    "#USER",
-    "/"
+    "#USER"
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-browsertab/-/cordova-plugin-browsertab-0.2.0.tgz",
   "_shasum": "1e07f9872e15467a50e7d14a73fefd874faed64a",
   "_shrinkwrap": null,
   "_spec": "cordova-plugin-browsertab",
-  "_where": "/Users/admin/Documents/implant-compare-ios/node_modules",
+  "_where": "/Users/serhiikoziy/Documents/repo/ImplantCompareiOS",
   "author": {
     "name": "Google, Inc."
   },

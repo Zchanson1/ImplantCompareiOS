@@ -1,39 +1,27 @@
 {
   "project_info": {
-    "project_number": "807764475515",
-    "firebase_url": "https://implant-compare.firebaseio.com",
-    "project_id": "implant-compare",
-    "storage_bucket": "implant-compare.appspot.com"
+    "project_number": "147670420286",
+    "firebase_url": "https://stag-implant-compare.firebaseio.com",
+    "project_id": "stag-implant-compare",
+    "storage_bucket": "stag-implant-compare.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:807764475515:android:fb36bfab28c4d94c",
+        "mobilesdk_app_id": "1:147670420286:android:871f8931379a6637",
         "android_client_info": {
-          "package_name": "com.implantcompare.implantcompare"
+          "package_name": "stag.Implant.Compare"
         }
       },
       "oauth_client": [
         {
-          "client_id": "807764475515-uvternvgu95eh50m3nf6rf6k92oimuvp.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "807764475515-ktta30cjnsvend9u5cevkrgh3tkug7be.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.implantcompare.implantcompare",
-            "certificate_hash": "82522f7b8e6916aa3a6e9197b4994e61f9512b34"
-          }
-        },
-        {
-          "client_id": "807764475515-o7n4kpi2f728fc6ir7rgl11oaf2u5bis.apps.googleusercontent.com",
+          "client_id": "147670420286-m02rge712i148vi5q44og1abudt89604.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBRevBWE9MJ3WgX3WDGMdNreTq87Jw7k1I"
+          "current_key": "AIzaSyCzI_boioLkp9C7EKhRWSRTYPIKRQaWdlc"
         }
       ],
       "services": {
@@ -41,21 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "807764475515-lei0cla1lpmpmu6n7s43ad7m7pjm36ot.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.implantcompare.implantcompare",
-                "app_store_id": "1135654667"
-              }
-            },
-            {
-              "client_id": "807764475515-uvternvgu95eh50m3nf6rf6k92oimuvp.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

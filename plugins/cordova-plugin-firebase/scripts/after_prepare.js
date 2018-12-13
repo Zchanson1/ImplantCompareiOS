@@ -1,88 +1,58 @@
 #!/usr/bin/env node
+
 'use strict';
 
+/**
+ * This hook makes sure projects using [cordova-plugin-firebase](https://github.com/arnesson/cordova-plugin-firebase)
+ * will build properly and have the required key files copied to the proper destinations when the app is build on Ionic Cloud using the package command.
+ * Credits: https://github.com/arnesson.
+ */
 var fs = require('fs');
+var path = require('path');
+var utilities = require("./lib/utilities");
 
-var getValue = function(config, name) {
-    var value = config.match(new RegExp('<' + name + '>(.*?)</' + name + '>', "i"))
-    if(value && value[1]) {
-        return value[1]
-    } else {
-        return null
-    }
-}
+var config = fs.readFileSync('config.xml').toString();
+var name = utilities.getValue(config, 'name');
 
-function fileExists(path) {
-  try  {
-    return fs.statSync(path).isFile();
+var IOS_DIR = 'platforms/ios';
+var ANDROID_DIR = 'platforms/android';
+
+var PLATFORM = {
+  IOS: {
+    dest: [
+      IOS_DIR + '/' + name + '/Resources/GoogleService-Info.plist',
+      IOS_DIR + '/' + name + '/Resources/Resources/GoogleService-Info.plist'
+    ],
+    src: [
+      'GoogleService-Info.plist',
+      IOS_DIR + '/www/GoogleService-Info.plist',
+      'www/GoogleService-Info.plist'
+    ]
+  },
+  ANDROID: {
+    dest: [
+      ANDROID_DIR + '/google-services.json',
+      ANDROID_DIR + '/app/google-services.json'
+    ],
+    src: [
+      'google-services.json',
+      ANDROID_DIR + '/assets/www/google-services.json',
+      'www/google-services.json',
+      ANDROID_DIR + '/app/src/main/google-services.json'
+    ],
   }
-  catch (e) {
-    return false;
+};
+
+module.exports = function (context) {
+  //get platform from the context supplied by cordova
+  var platforms = context.opts.platforms;
+  // Copy key files to their platform specific folders
+  if (platforms.indexOf('ios') !== -1 && utilities.directoryExists(IOS_DIR)) {
+    console.log('Preparing Firebase on iOS');
+    utilities.copyKey(PLATFORM.IOS);
   }
-}
-
-function directoryExists(path) {
-  try  {
-    return fs.statSync(path).isDirectory();
+  if (platforms.indexOf('android') !== -1 && utilities.directoryExists(ANDROID_DIR)) {
+    console.log('Preparing Firebase on Android');
+    utilities.copyKey(PLATFORM.ANDROID);
   }
-  catch (e) {
-    return false;
-  }
-}
-
-var config = fs.readFileSync("config.xml").toString()
-var name = getValue(config, "name")
-
-if (directoryExists("platforms/ios")) {
-  var paths = ["GoogleService-Info.plist", "platforms/ios/www/GoogleService-Info.plist"];
-
-  for (var i = 0; i < paths.length; i++) {
-    if (fileExists(paths[i])) {
-      try {
-        var contents = fs.readFileSync(paths[i]).toString();
-        fs.writeFileSync("platforms/ios/" + name + "/Resources/GoogleService-Info.plist", contents)
-      } catch(err) {
-        process.stdout.write(err);
-      }
-
-      break;
-    }
-  }
-}
-
-if (directoryExists("platforms/android")) {
-  var paths = ["google-services.json", "platforms/android/assets/www/google-services.json"];
-
-  for (var i = 0; i < paths.length; i++) {
-    if (fileExists(paths[i])) {
-      try {
-        var contents = fs.readFileSync(paths[i]).toString();
-        fs.writeFileSync("platforms/android/google-services.json", contents);
-
-        var json = JSON.parse(contents);
-        var strings = fs.readFileSync("platforms/android/res/values/strings.xml").toString();
-
-        // strip non-default value
-        strings = strings.replace(new RegExp('<string name="google_app_id">([^\@<]+?)<\/string>', "i"), '')
-
-        // strip non-default value
-        strings = strings.replace(new RegExp('<string name="google_api_key">([^\@<]+?)<\/string>', "i"), '')
-
-        // strip empty lines
-        strings = strings.replace(new RegExp('(\r\n|\n|\r)[ \t]*(\r\n|\n|\r)', "gm"), '$1')
-
-        // replace the default value
-        strings = strings.replace(new RegExp('<string name="google_app_id">([^<]+?)<\/string>', "i"), '<string name="google_app_id">' + json.client[0].client_info.mobilesdk_app_id + '</string>')
-
-        // replace the default value
-        strings = strings.replace(new RegExp('<string name="google_api_key">([^<]+?)<\/string>', "i"), '<string name="google_api_key">' + json.client[0].api_key[0].current_key + '</string>')
-
-        fs.writeFileSync("platforms/android/res/values/strings.xml", strings);
-      } catch(err) {
-        process.stdout.write(err);
-      }
-
-      break;
-    }
-  }
-}
+};

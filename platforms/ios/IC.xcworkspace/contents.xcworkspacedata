@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:IC.xcodeproj">
+      location = "group:/Users/serhiikoziy/Documents/repo/ImplantCompareiOS/platforms/ios/IC.xcodeproj">
    </FileRef>
 </Workspace>

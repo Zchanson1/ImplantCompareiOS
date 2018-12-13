@@ -10,7 +10,7 @@
         "spec": "latest",
         "type": "tag"
       },
-      "/Users/admin/Documents/implant-compare-ios/node_modules"
+      "/Users/serhiikoziy/Documents/repo/ImplantCompareiOS"
     ]
   ],
   "_from": "cordova-universal-links-plugin@latest",
@@ -45,7 +45,7 @@
   "_shasum": "33bd2785cdd474873a43b8c3195b934e5000e49b",
   "_shrinkwrap": null,
   "_spec": "cordova-universal-links-plugin",
-  "_where": "/Users/admin/Documents/implant-compare-ios/node_modules",
+  "_where": "/Users/serhiikoziy/Documents/repo/ImplantCompareiOS",
   "author": {
     "name": "Nikolay Demyankov for Nordnet Bank AB"
   },
