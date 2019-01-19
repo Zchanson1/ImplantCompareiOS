@@ -2,55 +2,56 @@
   "_args": [
     [
       {
-        "raw": "cordova-plugin-statusbar@2.2.3",
+        "raw": "cordova-plugin-statusbar@2.4.2",
         "scope": null,
         "escapedName": "cordova-plugin-statusbar",
         "name": "cordova-plugin-statusbar",
-        "rawSpec": "2.2.3",
-        "spec": "2.2.3",
+        "rawSpec": "2.4.2",
+        "spec": "2.4.2",
         "type": "version"
       },
-      "/Users/admin/Documents/implant-compare-ios/node_modules"
+      "/Users/serhiikoziy/Documents/repo/ImplantCompareiOS"
     ]
   ],
-  "_from": "cordova-plugin-statusbar@2.2.3",
-  "_id": "cordova-plugin-statusbar@2.2.3",
+  "_from": "cordova-plugin-statusbar@2.4.2",
+  "_hasShrinkwrap": false,
+  "_id": "cordova-plugin-statusbar@2.4.2",
   "_inCache": true,
   "_location": "/cordova-plugin-statusbar",
-  "_nodeVersion": "6.10.1",
+  "_nodeVersion": "6.6.0",
   "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/cordova-plugin-statusbar-2.2.3.tgz_1493685656975_0.141719562234357"
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-statusbar_2.4.2_1523945155574_0.4512341550747905"
   },
   "_npmUser": {
-    "name": "filmaj",
-    "email": "maj.fil@gmail.com"
+    "name": "stevegill",
+    "email": "stevengill97@gmail.com"
   },
   "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "cordova-plugin-statusbar@2.2.3",
+    "raw": "cordova-plugin-statusbar@2.4.2",
     "scope": null,
     "escapedName": "cordova-plugin-statusbar",
     "name": "cordova-plugin-statusbar",
-    "rawSpec": "2.2.3",
-    "spec": "2.2.3",
+    "rawSpec": "2.4.2",
+    "spec": "2.4.2",
     "type": "version"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-statusbar/-/cordova-plugin-statusbar-2.2.3.tgz",
-  "_shasum": "51c5e02ad433bebd0b0dc977a446eb91dfee1502",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-statusbar/-/cordova-plugin-statusbar-2.4.2.tgz",
+  "_shasum": "fc1fbdc0d8d7033a7e8e1f1f7ff167ac9bd4faf6",
   "_shrinkwrap": null,
-  "_spec": "cordova-plugin-statusbar@2.2.3",
-  "_where": "/Users/admin/Documents/implant-compare-ios/node_modules",
+  "_spec": "cordova-plugin-statusbar@2.4.2",
+  "_where": "/Users/serhiikoziy/Documents/repo/ImplantCompareiOS",
   "author": {
     "name": "Apache Software Foundation"
   },
   "bugs": {
-    "url": "https://github.com/apache/cordova-plugin-statusbar/issues"
+    "url": "https://issues.apache.org/jira/browse/CB"
   },
   "cordova": {
     "id": "cordova-plugin-statusbar",
@@ -69,8 +70,11 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "51c5e02ad433bebd0b0dc977a446eb91dfee1502",
-    "tarball": "https://registry.npmjs.org/cordova-plugin-statusbar/-/cordova-plugin-statusbar-2.2.3.tgz"
+    "shasum": "fc1fbdc0d8d7033a7e8e1f1f7ff167ac9bd4faf6",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-statusbar/-/cordova-plugin-statusbar-2.4.2.tgz",
+    "fileCount": 40,
+    "unpackedSize": 214573,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa1Y7ECRA9TVsSAnZWagAAi0oQAKJXbdeRuHOvkyZjfLtI\n+fsxpxkNMgYVjlCb6mW6y0+xZBirb4PCwIlUPVnu7CvU9LFsfgjFmqDAy7Hl\nLrh0kQWkYHOix4ch1Qn7dBi+RdyZJtENwT6J9QGepDWnUWwyZ2KhiPmWIpJJ\nGdTy/uR/J+I6AH4Tkc91xBafMtxZdlrF+iGKRgaSAR+KXvI4nY6rQrXUDbJg\ntr90c74J+AqHSzC+Vlm2l5Hk1RF84KoPaidZucgFRSO/5H1Zo64BAsVriQEz\nX1hkWZljj5g+J+o8jUFCb44mXOFH72/vkSFgAMKCwApj6D6sCMKub7CUgbyg\njxUz2Hae6qqn+QyZyrOxFiqMMA++lAcRa2iHkzy0HqtyBSvoqwoAeHj2BLJL\nh/Xx4tUBkdfyaHEdukpwB8QQq3GZafco4C0b7rX8Q16EWHK1Qblhc8nMMQ33\nHVWerPmb+cboYr9JQaBkvtfNRS5BO/9WB5vG9Ae0o/W4M0UZ4z2M21WD2qVV\nlkBBhgMJ9NefdaKPERXVWqVpfYNM4nJyuN3tlq01kpqANJriehywMgLUvAEL\n2BrqtyQa6G7aFlo7MVP81OBoToIrGLAcYJey6d/Rhi5QtTkZCV1H1qCDdF/E\nkHT/wIIT2VmvLXE69wy13cjlSF2oKiQqgowkFiorb/sA+y/9jPahLuuOQl8A\nlOG4\r\n=ZpWZ\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "engines": {
     "cordovaDependencies": {
@@ -108,8 +112,16 @@
       "email": "maj.fil@gmail.com"
     },
     {
+      "name": "jcesarmobile",
+      "email": "jcesarmobile@gmail.com"
+    },
+    {
       "name": "kotikov.vladimir",
       "email": "kotikov.vladimir@gmail.com"
+    },
+    {
+      "name": "macdonst",
+      "email": "simon.macdonald@gmail.com"
     },
     {
       "name": "purplecabbage",
@@ -136,5 +148,5 @@
     "test": "npm run jshint"
   },
   "types": "./types/index.d.ts",
-  "version": "2.2.3"
+  "version": "2.4.2"
 }

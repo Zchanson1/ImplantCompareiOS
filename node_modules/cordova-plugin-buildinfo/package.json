@@ -2,50 +2,49 @@
   "_args": [
     [
       {
-        "raw": "cordova-plugin-buildinfo",
+        "raw": "cordova-plugin-buildinfo@2.0.2",
         "scope": null,
         "escapedName": "cordova-plugin-buildinfo",
         "name": "cordova-plugin-buildinfo",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
+        "rawSpec": "2.0.2",
+        "spec": "2.0.2",
+        "type": "version"
       },
-      "/Users/admin/Documents/implant-compare-ios/node_modules"
+      "/Users/serhiikoziy/Documents/repo/ImplantCompareiOS"
     ]
   ],
-  "_from": "cordova-plugin-buildinfo@latest",
-  "_id": "cordova-plugin-buildinfo@1.1.0",
+  "_from": "cordova-plugin-buildinfo@2.0.2",
+  "_id": "cordova-plugin-buildinfo@2.0.2",
   "_inCache": true,
   "_location": "/cordova-plugin-buildinfo",
-  "_nodeVersion": "6.2.0",
+  "_nodeVersion": "6.9.4",
   "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/cordova-plugin-buildinfo-1.1.0.tgz_1464658958196_0.5514536541886628"
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-buildinfo_2.0.2_1534065973283_0.12263715033387057"
   },
   "_npmUser": {
     "name": "lynrin",
     "email": "tartelyn@gmail.com"
   },
-  "_npmVersion": "3.8.9",
+  "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "cordova-plugin-buildinfo",
+    "raw": "cordova-plugin-buildinfo@2.0.2",
     "scope": null,
     "escapedName": "cordova-plugin-buildinfo",
     "name": "cordova-plugin-buildinfo",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "2.0.2",
+    "spec": "2.0.2",
+    "type": "version"
   },
   "_requiredBy": [
-    "#USER",
-    "/"
+    "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-buildinfo/-/cordova-plugin-buildinfo-1.1.0.tgz",
-  "_shasum": "c8061706801373f8404eba05c53d8a34500eb995",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-buildinfo/-/cordova-plugin-buildinfo-2.0.2.tgz",
+  "_shasum": "a4573ee8a82199461b7ff595228a9b42a2cd8852",
   "_shrinkwrap": null,
-  "_spec": "cordova-plugin-buildinfo",
-  "_where": "/Users/admin/Documents/implant-compare-ios/node_modules",
+  "_spec": "cordova-plugin-buildinfo@2.0.2",
+  "_where": "/Users/serhiikoziy/Documents/repo/ImplantCompareiOS",
   "author": {
     "name": "Mikihiro Hayashi"
   },
@@ -56,7 +55,8 @@
     "id": "cordova-plugin-buildinfo",
     "platforms": [
       "android",
-      "ios"
+      "ios",
+      "windows"
     ]
   },
   "dependencies": {},
@@ -66,16 +66,30 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "c8061706801373f8404eba05c53d8a34500eb995",
-    "tarball": "https://registry.npmjs.org/cordova-plugin-buildinfo/-/cordova-plugin-buildinfo-1.1.0.tgz"
+    "shasum": "a4573ee8a82199461b7ff595228a9b42a2cd8852",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-buildinfo/-/cordova-plugin-buildinfo-2.0.2.tgz",
+    "integrity": "sha512-hrrNZxSiV2KoyJ3cNPkvy/GoaWZbLZuuJMDaEK3OJ4GXgtuqB1lxAUQqJG+L2P2Ak3xwRZizqH32U5gE32I96w==",
+    "fileCount": 16,
+    "unpackedSize": 44248,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbb/01CRA9TVsSAnZWagAACN8P/ikf5aglDmRQ6XNa0oIk\nNCI4ShWEcR+Csyt9swTPbmaqikxmPHDjdJUPGq2Qhrg28AUy2MHno0Gdu6pm\n0FObOwI0dKDTjysRzx0/gCRoGSwmyuSjfigS8JaAqYjdFdLaoPizARq9HRar\nRolJp6KJbr0e5sE4YQWsV24LoX/JR+/8NTkY5HQ4pn/zb1Deh7T2JiPF39QV\nEgflTGx2Xf6es7hTs79cdgOXOTWOuuPPSStjgU4nN6zqJeMXFZjZkd3ofsAv\nNIlDwls0aKpynu9Gyonj92LyNmWb7xL3pqev8YNYR+DmANh9PR1W8b558DpI\nsi8Qt3Wto5pItYR+BA2FQFLTQa/eGY6becmhRhCrrZzXIyTmc+g7Nsn/Fy9l\nULQK52Ul7QSfutMg6pLGVPPc7eXfnzadjSMt+SrGm3AQCENlkfYOuIfrfytR\nMjA+2f1hfvpEEzBu94uep5yQsAz32EPQnPuHjEeA9wT454EVs/u+Q67LzSY6\n3P0G32fOElKPw1HdFrLBVUPrYFlKbYvR42YY3Hvwm36djh9YUYCbuxu6q3yc\nVgr2KvcNNDN7dAaXG1Zd+FO8+ORsenX3jW6tO90OdqIi9fFhdobnjlLZ7RNS\nv9JmyoQ0YtmfVZDC7nCJp24wxZAxHBco4oesGr/c4TeovmNVfDLteZ6lb7TA\nDO91\r\n=ZZJ4\r\n-----END PGP SIGNATURE-----\r\n"
   },
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=4.0.0"
+  "engines": {
+    "cordovaDependencies": {
+      "0.0.0": {
+        "cordova": ">=4.0.0"
+      },
+      "2.0.0": {
+        "cordova": ">=5.4.0",
+        "cordova-android": ">=5.0.0",
+        "cordova-ios": ">=4.0.0",
+        "cordova-windows": ">=4.0.0"
+      },
+      "3.0.0": {
+        "cordova": ">100"
+      }
     }
-  ],
-  "gitHead": "47bb5a4945c543c14008afae848a92a53478b67f",
+  },
+  "gitHead": "d11a06eab9e41219959e187cb532162fe4440fdc",
   "homepage": "https://github.com/lynrin/cordova-plugin-buildinfo#readme",
   "keywords": [
     "debug",
@@ -85,7 +99,8 @@
     "cordova",
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-ios"
+    "cordova-ios",
+    "cordova-windows"
   ],
   "license": "MIT",
   "maintainers": [
@@ -105,5 +120,5 @@
     "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
     "test": "npm run jshint"
   },
-  "version": "1.1.0"
+  "version": "2.0.2"
 }

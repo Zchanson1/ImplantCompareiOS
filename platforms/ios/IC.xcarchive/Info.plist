@@ -9,16 +9,18 @@
 		<key>CFBundleIdentifier</key>
 		<string>com.implantcompare.implantcompare</string>
 		<key>CFBundleShortVersionString</key>
-		<string>2.6.2</string>
+		<string>1.0.0</string>
 		<key>CFBundleVersion</key>
-		<string>2.6.2</string>
+		<string>1.0.0</string>
 		<key>SigningIdentity</key>
-		<string>iPhone Developer: Blake Mclellan (FGR6JGXV6C)</string>
+		<string>iPhone Developer: Serhii Koziy (UZB55DV9S2)</string>
+		<key>Team</key>
+		<string>7CVW54CQZG</string>
 	</dict>
 	<key>ArchiveVersion</key>
 	<integer>2</integer>
 	<key>CreationDate</key>
-	<date>2017-06-02T01:35:04Z</date>
+	<date>2018-12-13T11:02:51Z</date>
 	<key>Name</key>
 	<string>IC</string>
 	<key>SchemeName</key>

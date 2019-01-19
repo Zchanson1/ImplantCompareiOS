@@ -1,105 +1,97 @@
 {
-    "cordova-plugin-whitelist": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-whitelist@1"
-        },
-        "is_top_level": true,
-        "variables": {}
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@^1.3.3"
     },
-    "cordova-plugin-splashscreen": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-splashscreen@4.0.3"
-        },
-        "is_top_level": true,
-        "variables": {}
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-facebook4": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-facebook4"
     },
-    "cordova-plugin-statusbar": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-statusbar@2.2.3"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-firebase": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-firebase"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-buildinfo": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-buildinfo"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-universal-links-plugin": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-universal-links-plugin"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-browsertab": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-browsertab"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-compat": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-compat@^1.0.0"
-        },
-        "is_top_level": false,
-        "variables": {}
-    },
-    "cordova-plugin-inappbrowser": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-inappbrowser@1.7.1"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-customurlscheme": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-customurlscheme"
-        },
-        "is_top_level": true,
-        "variables": {
-            "URL_SCHEME": "com.implantcompare.implantcompare"
-        }
-    },
-    "cordova-plugin-facebook4": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-facebook4"
-        },
-        "is_top_level": true,
-        "variables": {
-            "APP_ID": "1834783516803213",
-            "APP_NAME": "IC"
-        }
-    },
-    "cordova-plugin-googleplus": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-googleplus"
-        },
-        "is_top_level": true,
-        "variables": {
-            "REVERSED_CLIENT_ID": "com.googleusercontent.apps.807764475515-lei0cla1lpmpmu6n7s43ad7m7pjm36ot"
-        }
+    "is_top_level": true,
+    "variables": {
+      "APP_ID": "326806861434139",
+      "APP_NAME": "ImplantCompare"
     }
+  },
+  "cordova-plugin-compat": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-compat@^1.0.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-customurlscheme": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-customurlscheme@~4.3.0"
+    },
+    "is_top_level": true,
+    "variables": {
+      "URL_SCHEME": "com.implantcompare.implantcompare"
+    }
+  },
+  "cordova-plugin-firebase": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-firebase"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-buildinfo": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-buildinfo@2.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-googleplus": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-googleplus"
+    },
+    "is_top_level": true,
+    "variables": {
+      "REVERSED_CLIENT_ID": "147670420286-u3be8p2vi9j4ujvj9lbok0n21fslv424.apps.googleusercontent.com"
+    }
+  },
+  "cordova-plugin-browsertab": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-browsertab"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-inappbrowser": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-inappbrowser@3.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar@2.4.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-universal-links-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-universal-links-plugin@^1.2.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
 }
